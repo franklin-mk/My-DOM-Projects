@@ -1,0 +1,50 @@
+body{
+    background: url("images.jpeg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 68%;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 3px orange;
+}
+
+#timer{
+    width: 100%;
+    font-size: 70px ;
+    text-align: center;
+    margin: 0 auto ;
+    padding-top: 20px;
+    text-wrap: nowrap;
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    margin: 0 10px;
+    border:  none;
+}
+
+button i{
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+    width: 30px;
+}
+
+#play{
+background: green;
+}
+#pause{
+ background-color: orange;
+}
+#reset{
+ background-color: red;
+}
